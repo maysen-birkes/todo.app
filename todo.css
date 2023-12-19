@@ -1,0 +1,68 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9cb3dd;
+    height: 100vh;
+}
+
+.todo-app {
+    margin: 20px;
+    padding: 10px 50px 10px 50px;
+    border: 10px solid black;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2.5px;
+    padding: 10px 0 30px 0;
+}
+
+.newtodo {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#todo-list {
+    padding: 10px;
+}
+
+.submit {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+li button {
+    border: none;
+    margin: 0 10px 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+li {
+    display: flex;
+    padding: 10px 0 5px 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    list-style-type: none;
+}
